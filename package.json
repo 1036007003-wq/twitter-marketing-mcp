@@ -1,5 +1,5 @@
 {
-  "name": "twitter-marketing-mcp",
+  "name": "@1036007003-wq/twitter-marketing-mcp",
   "version": "1.0.0",
   "description": "MCP Server for Twitter/X marketing automation - search, analyze, schedule, and grow on Twitter. Free tools + premium features.",
   "type": "module",
@@ -30,5 +30,6 @@
     "dotenv": "^16.4.5",
     "node-fetch": "^3.3.2",
     "twitter-api-v2": "^1.17.2"
-  }
+  },
+  "mcpName": "io.github.1036007003-wq/twitter-marketing"
 }

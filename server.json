@@ -1,0 +1,43 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.1036007003-wq/twitter-marketing",
+  "description": "MCP Server for Twitter/X marketing automation \u2014 post tweets, analyze engagement, search mentions, schedule content, and grow followers.",
+  "repository": {
+    "url": "https://github.com/1036007003-wq/twitter-marketing-mcp",
+    "source": "github"
+  },
+  "version": "1.0.1",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@1036007003-wq/twitter-marketing-mcp",
+      "version": "1.0.1",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "TWITTER_BEARER_TOKEN",
+          "isRequired": true,
+          "isSecret": true,
+          "format": "string",
+          "description": "Twitter/X Bearer Token (API v2)"
+        },
+        {
+          "name": "TWITTER_API_KEY",
+          "isRequired": false,
+          "isSecret": true,
+          "format": "string",
+          "description": "Twitter API Key"
+        },
+        {
+          "name": "TWITTER_API_SECRET",
+          "isRequired": false,
+          "isSecret": true,
+          "format": "string",
+          "description": "Twitter API Secret"
+        }
+      ]
+    }
+  ]
+}

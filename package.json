@@ -1,0 +1,34 @@
+{
+  "name": "twitter-marketing-mcp",
+  "version": "1.0.0",
+  "description": "MCP Server for Twitter/X marketing automation - search, analyze, schedule, and grow on Twitter. Free tools + premium features.",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "twitter-marketing-mcp": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node index.js"
+  },
+  "keywords": [
+    "mcp",
+    "twitter",
+    "x",
+    "marketing",
+    "automation",
+    "social-media"
+  ],
+  "author": "wangchenji",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/1036007003-wq/twitter-marketing-mcp.git"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^3.3.2",
+    "twitter-api-v2": "^1.17.2"
+  }
+}
